@@ -8,3 +8,5 @@ grados_fahrenheit = float(input("Ingrese la temperatura en fahrenheit "))
 grados_celsius = round((5/9) * (grados_fahrenheit-32),2)
 
 print(str(grados_fahrenheit) + " grados fahrenheit equivalen a " + str(grados_celsius) + " celsius")
+
+input("")
