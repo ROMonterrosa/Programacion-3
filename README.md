@@ -1,2 +1,3 @@
-# Tarea_semana_tres
- Tarea correspondiente a la semana 3
+# Programacion 3
+ Repositorio de las tareas realizadas durante el ciclo
+ 
