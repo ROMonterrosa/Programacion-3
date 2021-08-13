@@ -33,4 +33,13 @@
     Len(<Variable>)
    ```
 
+  ### ejercicio 2
+   En este ejercicio se nos solicita el producto de la suma de dos numeros previamente operados, para resolverlo guarde en una variable y solicite dos variables al usuario, luego esa variable la multiplique por un tercer numero.
 
+  ### ejercicio 3
+   En este ejercicio se nos solicita la conversion de grados fahrenheit a grados celsius, la formula que se utilizo para resolver este ejercicio fue 
+   ```python
+    (5/9) * (grados_fahrenheit-32) 
+   ```
+
+ ## Semana 4
