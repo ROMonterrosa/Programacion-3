@@ -17,9 +17,11 @@
   Escribí  un  programa  que  solicite  al  usuario  el  ingreso  de  una  temperatura  en escala Fahrenheit (debe permitir decimales) y le muestre el equivalente en grados Celsius. La fórmula de conversión que se usa para este cálculo es: _Celsius = (5/9) * (Fahrenheit-32)
   
   **Ejercicio 4**
+
   Crear  un  programa  en Pythonque  solicite  usuario  y  contraseña,  si  el  usuario ingresa  en  ambas  credenciales  la  cadena  UGB  permitirle  el  ingreso  al  sistema, caso contrario mostrar mensaje de advertencia.
   
   **Ejercicio 5**
+  
   Definir una función max() que tome como argumento dos números y devuelva el mayor de ellos.
 
   ### ejercicio 1
