@@ -10,4 +10,5 @@ if (user == "UGB" and password == "UGB"):
 else:
     print("Se ha producido un error en su intento de inicio de sesión.")
 
+#Deteniendo el codigo
 input("")

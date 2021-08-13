@@ -9,4 +9,5 @@ def cadena(nombre):
     
 cadena(input("Cual es su nombre: "))
 
+#Deteniendo el codigo
 input("")

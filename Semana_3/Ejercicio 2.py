@@ -17,4 +17,5 @@ resultado_dos = resultado * tercer_numero
 
 print("La multiplicacion del tercer numero con la suma de los dos primeros numeros es " + str(resultado_dos))
 
+#Deteniendo el codigo
 input("")
