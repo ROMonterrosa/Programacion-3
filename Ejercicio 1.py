@@ -8,3 +8,5 @@ def cadena(nombre):
     print("El nombre " + str(nombre.upper()) + " tiene " + str(len(nombre)) + " letras")
     
 cadena(input("Cual es su nombre: "))
+
+input("")
