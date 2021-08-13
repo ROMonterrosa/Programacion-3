@@ -34,8 +34,11 @@
    ```
 
   ### ejercicio 2
-   En este ejercicio se nos solicita el producto de la suma de dos numeros previamente operados, para resolverlo guarde en una variable y solicite dos variables al usuario, luego esa variable la multiplique por un tercer numero.
-
+   En este ejercicio se nos solicita el producto de la suma de dos numeros previamente operados, para resolverlo guarde en una variable y solicite dos variables al usuario, luego esa variable la multiplique por un tercer numero, utilizando las siguientes operaciones.
+   ```python
+    resultado = primer_numero + segundo_numero
+    resultado_dos = resultado * tercer_numero
+   ```
   ### ejercicio 3
    En este ejercicio se nos solicita la conversion de grados fahrenheit a grados celsius, la formula que se utilizo para resolver este ejercicio fue 
    ```python
@@ -46,5 +49,10 @@
    ```python
     if (user == "UGB" and password == "UGB"):
    ```
+  ### ejercicio 5
+   En este se nos solicita devolver el mayor de dos numeros, para resolverlo utilizamos la funcion
+   ```python
+    max(variable_1,variable_2)
+   ```   
 
  ## Semana 4
