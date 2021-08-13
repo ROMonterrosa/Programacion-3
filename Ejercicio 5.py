@@ -8,3 +8,4 @@ b = input("Ingrese el segundo numero: ")
 
 print("El numero " + max(a,b) + " es mayor")
     
+input("")

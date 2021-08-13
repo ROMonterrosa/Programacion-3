@@ -9,3 +9,5 @@ if (user == "UGB" and password == "UGB"):
     print("¡Bienvenido!")
 else:
     print("Se ha producido un error en su intento de inicio de sesión.")
+
+input("")
