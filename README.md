@@ -42,17 +42,17 @@
   ### ejercicio 3
    En este ejercicio se nos solicita la conversion de grados fahrenheit a grados celsius, la formula que se utilizo para resolver este ejercicio fue 
    ```python
-    celsius = (5/9) * (<grados_fahrenheit>-32) 
+    celsius = (5/9) * (grados_fahrenheit-32) 
    ```
   ### ejercicio 4
    En este se nos solicita poder acceder ingresando las credenciales correctas, el ejercicio se resolvio utilizando
    ```python
-    if (<user> == "UGB" and <password> == "UGB"):
+    if (user == "UGB" and password == "UGB"):
    ```
   ### ejercicio 5
    En este se nos solicita devolver el mayor de dos numeros, para resolverlo utilizamos la funcion
    ```python
-    max(<Variable_1>,<Variable_2>)
+    Max(<Variable_1>,<Variable_2>)
    ```   
 
  ## Semana 4
