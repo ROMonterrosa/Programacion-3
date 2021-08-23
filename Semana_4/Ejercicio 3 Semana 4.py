@@ -38,3 +38,9 @@ carro1.Arrancar()
 carro1.Detener()
 carro1.Estacionar()
 carro1.Retroceder()
+
+#Usando metodos para el objeto 2
+#carro2.Arrancar()
+#carro2.Detener()
+#carro2.Estacionar()
+#carro2.Retroceder()
