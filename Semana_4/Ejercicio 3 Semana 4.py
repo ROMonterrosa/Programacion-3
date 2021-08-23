@@ -2,8 +2,10 @@
 #Crear el constructor del coche, así como los métodos que considere necesarios. Crear una clase PruebaCoche que instancie varios coches, cambiándole el color a 
 # algunos de ellos y mostrándolo por pantalla.
 
+#Creando la clase
 class Coche:
- 
+
+#Creando el constructor 
  def __init__(self,color,marca,modelo,puertas,placa):
   self.color = color
   self.marca = marca
@@ -11,32 +13,28 @@ class Coche:
   self.puertas = puertas
   self.placa = placa
 
- def modelo(self):
-  print(self.color,self.marca,self.modelo,self.puertas,self.placa)
+#Creando los metodos
+ def Arrancar(self):
+  print("El carro " + self.marca + " arranco")
 
-carro1 = Coche(input("Ingrese el color del vehiculo: "),"Tucson","Hyundai","4","0517958-5")
+ def Detener(self):
+  print("El carro color " + self.color + " se detuvo")
 
-print("PruebaCoche: " + str(carro1.modelo))
+ def Estacionar(self):
+  print("El carro de " + self.puertas + " puertas se parqueo")
+  
+ def Retroceder(self):
+  print("El carro de " + self.puertas + " puertas se parqueo")
 
-'''carro10 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
-input("Ingrese la cantidad de puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
+carro1 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
+input("Ingrese las puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
 
-print("Las caracteristicas del carro son las siguienes: " + str(carro1))
+#Ejemplo de otro objeto instanciado
+carro2 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
+input("Ingrese las puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
 
- class MyClass:
-variable = "blah"
-def function(self):
-print("Este mensaje está dentro de una clase.")
-
-
-#instanciamos o creamos dos objetos de la clase
-myobjectx = MyClass()
-myobjecty = MyClass()
-
-#le cambiamos valor a la variable global del objeto y
-myobjecty.variable = "yackity"
-
-# Entonces se imprimen ambos valores
-print(myobjectx.variable) # imprime "blah"
-print(myobjecty.variable) # imprime "yackity"
-'''
+#Usando los metodos para el objeto 1
+carro1.Arrancar()
+carro1.Detener()
+carro1.Estacionar()
+carro1.Retroceder()
