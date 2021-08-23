@@ -1,8 +1,7 @@
 #2. Escribir una clase en python llamada rectangulo que contenga una base y una altura, y que contenga un método que devuelva el área del rectángulo.
 
 class Rectangulo:
- PI =3.14
-
+ 
  def __init__(self,altura,base):
   self.altura = altura
   self.base = base
