@@ -1,5 +1,8 @@
 #2. Escribir una clase en python llamada rectangulo que contenga una base y una altura, y que contenga un método que devuelva el área del rectángulo.
 
+#Rene Orlando Monterrosa Santos
+#SMTS585018
+
 #Creando la clase
 class Rectangulo:
  

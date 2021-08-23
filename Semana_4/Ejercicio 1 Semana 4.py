@@ -1,5 +1,8 @@
 #1. Escribir una clase en python que convierta un número entero a número romanos.
 
+#Rene Orlando Monterrosa Santos
+#SMTS585018
+
 #Creando la clase
 class Numero:    
 

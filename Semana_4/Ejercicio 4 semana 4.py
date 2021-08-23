@@ -1,5 +1,8 @@
 #4. Genere el carné de un alumno sabiendo que está compuesto por la primera letra del nombre, la primera letra del apellido y el año actual
 
+#Rene Orlando Monterrosa Santos
+#SMTS585018
+
 #Importo libreria para la año actual
 from datetime import datetime
 now = datetime.now()

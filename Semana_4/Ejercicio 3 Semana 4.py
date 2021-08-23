@@ -2,6 +2,9 @@
 #Crear el constructor del coche, así como los métodos que considere necesarios. Crear una clase PruebaCoche que instancie varios coches, cambiándole el color a 
 # algunos de ellos y mostrándolo por pantalla.
 
+#Rene Orlando Monterrosa Santos
+#SMTS585018
+
 #Creando la clase
 class Coche:
 
