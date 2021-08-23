@@ -24,14 +24,14 @@ class Coche:
   print("El carro de " + self.puertas + " puertas se parqueo")
   
  def Retroceder(self):
-  print("El carro de " + self.puertas + " puertas se parqueo")
+  print("El carro con placa " + self.placa + " se descompuso")
 
 carro1 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
 input("Ingrese las puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
 
 #Ejemplo de otro objeto instanciado
-carro2 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
-input("Ingrese las puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
+#carro2 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
+#input("Ingrese las puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
 
 #Usando los metodos para el objeto 1
 carro1.Arrancar()
