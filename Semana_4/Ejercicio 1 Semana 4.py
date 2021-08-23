@@ -1,39 +1,30 @@
 #1. Escribir una clase en python que convierta un número entero a número romanos.
 
-'''class Conversion:
+class Numero:    
+    def __init__(self, normal):
+      if normal < 1 or normal > 4000:
+        raise ValueError("No se soportan números menores de 1 o mayores de 4000")
+      self.normal = normal
+      self.romano = self.convert_to_roman()
+   
+    def convert_to_roman(self):
+        num = [1, 4, 5, 9, 10, 40, 50, 90, 
+           100, 400, 500, 900, 1000]
+        sym = ["I", "IV", "V", "IX", "X", "XL", 
+           "L", "XC", "C", "CD", "D", "CM", "M"]
+        romano = []
+        i = 12
+        valor = self.normal
+        while valor:
+            div = valor // num[i]
+            valor %= num[i]
+            while div:
+                romano.append(sym[i])
+                div -= 1
+            i -= 1
 
- def num2roman(num):
-  
-  num_map = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'),
-           (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]
-  roman = ''
-
-  while num > 0:
-       for i, r in num_map:
-            while num >= i:
-                roman += r
-                num -= i
-
-  return roman
- 
-print(Conversion.num2roman(10))
-
- def numero_romano(entero):
-  numeros = [1000,900,500,400,100,90,50,40,10,9,5,1]
-  numerales = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"]
-
-  numeral = ""
-  i = 0
-
-  while entero > 0:
-      for _ in range(entero// numeros[i]):
-          numeral += numerales[i]
-          entero-= numeros[i]
-      i += 1
-  return numeral
-
-numero = Conversion()
-numero.numero_romano(10)
-
-print(numero.numero_romano)
-'''
+        return "".join(romano)
+    
+minumero = Numero(int(input("Ingrese el numero que desea convertir: ")))
+print("El numero que ingreso fue: " + str(minumero.normal))
+print("El numero en romanos es: " + str(minumero.romano))

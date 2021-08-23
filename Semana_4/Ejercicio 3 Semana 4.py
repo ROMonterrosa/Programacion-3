@@ -11,12 +11,12 @@ class Coche:
   self.puertas = puertas
   self.placa = placa
 
- def Modelo_Marca(self):
-  print(self.marca + self.modelo)
+ def modelo(self):
+  print(self.color,self.marca,self.modelo,self.puertas,self.placa)
 
 carro1 = Coche(input("Ingrese el color del vehiculo: "),"Tucson","Hyundai","4","0517958-5")
 
-print("PruebaCoche: " + str(carro1))
+print("PruebaCoche: " + str(carro1.modelo))
 
 '''carro10 = Coche(input("Ingrese el color del vehiculo: "),input("Ingrese la marca del vehiculo: "),input("Ingrese el modelo del vehiculo: "),
 input("Ingrese la cantidad de puertas del vehiculo: "),input("Ingrese la placa del vehiculo: "))
