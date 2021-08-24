@@ -22,10 +22,9 @@ class bicicleta:
 
  #revisar que operacion es la que necesita en el codigo
  def acelerar(self,kilometros):
-  return int(kilometros) + self.velocidades
+  return kilometros + self.velocidades
 
- def frenar(self):
-     
+ def frenar(self):   
   return self.velocidades - 1
   
  def consultar_velocidad(self):
@@ -37,6 +36,6 @@ bicicleta1 = bicicleta(input("Ingrese el modelo: "),float(input("Ingrese el prec
 #Prueba de codigo
 #print("Se ha recorrido a velocidad: " + bicicleta1.velocidades + " los siguientes kilometros: " + str(bicicleta1.acelerar(input("Ingrese los kilometros recorridos: "))))
 
-print("Se ha recorrido a velocidad: " + str(bicicleta1.acelerar(input("Ingrese los kilometros recorridos: "))))
+print("Se ha recorrido a velocidad: " + str(bicicleta1.acelerar(int(input("Ingrese los kilometros recorridos: ")))))
 print("Se ha bajado la velocidad a: " + str(bicicleta1.frenar()))
 str(bicicleta1.consultar_velocidad())
