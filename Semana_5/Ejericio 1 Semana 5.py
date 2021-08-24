@@ -24,7 +24,6 @@ class bicicleta:
 
 #Creando los metodos
 
- #revisar que operacion es la que necesita en el codigo
  def acelerar(self,kilometros):
   return kilometros + self.velocidades
 
@@ -34,11 +33,11 @@ class bicicleta:
  def consultar_velocidad(self):
   print("La velocidad actual es: " + str(self.velocidades))
 
+#Crear el objeto pasandole parametros por medio de consola
 
 bicicleta1 = bicicleta(input("Ingrese el modelo: "),float(input("Ingrese el precio: ")),int(input("Ingrese las velocidades: ")))
 
-#Prueba de codigo
-#print("Se ha recorrido a velocidad: " + bicicleta1.velocidades + " los siguientes kilometros: " + str(bicicleta1.acelerar(input("Ingrese los kilometros recorridos: "))))
+#Mando a llamar el objeto con la instancia
 
 print("Se han recorrido " + str(bicicleta1.acelerar(int(input("Ingrese los kilometros recorridos: ")))) + " kilometros")
 print("Se ha bajado la velocidad a: " + str(bicicleta1.frenar()))
