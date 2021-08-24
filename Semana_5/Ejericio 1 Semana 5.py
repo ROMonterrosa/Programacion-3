@@ -1,4 +1,8 @@
 #Desarrolle el siguiente ejercicio en parejas y ambos deben pegar su código en canvas.
+
+#Rene Orlando Monterrosa Santos
+#SMTS585018
+
 #Crear una clase en Python que se llame Bicicleta, debe tener las siguientes variables o propiedades: modelo, precio, números de velocidades. Debe tener los métodos: Acelerar, 
 #Frenar y Consultar Velocidad.
 
@@ -39,3 +43,4 @@ bicicleta1 = bicicleta(input("Ingrese el modelo: "),float(input("Ingrese el prec
 print("Se ha recorrido a velocidad: " + str(bicicleta1.acelerar(int(input("Ingrese los kilometros recorridos: ")))))
 print("Se ha bajado la velocidad a: " + str(bicicleta1.frenar()))
 str(bicicleta1.consultar_velocidad())
+
