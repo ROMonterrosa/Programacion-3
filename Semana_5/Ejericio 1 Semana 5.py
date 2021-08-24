@@ -40,7 +40,7 @@ bicicleta1 = bicicleta(input("Ingrese el modelo: "),float(input("Ingrese el prec
 #Prueba de codigo
 #print("Se ha recorrido a velocidad: " + bicicleta1.velocidades + " los siguientes kilometros: " + str(bicicleta1.acelerar(input("Ingrese los kilometros recorridos: "))))
 
-print("Se ha recorrido a velocidad: " + str(bicicleta1.acelerar(int(input("Ingrese los kilometros recorridos: ")))))
+print("Se han recorrido " + str(bicicleta1.acelerar(int(input("Ingrese los kilometros recorridos: ")))) + " kilometros")
 print("Se ha bajado la velocidad a: " + str(bicicleta1.frenar()))
-str(bicicleta1.consultar_velocidad())
+bicicleta1.consultar_velocidad()
 
