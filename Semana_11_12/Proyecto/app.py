@@ -7,7 +7,7 @@ def inicio():
 
 @app.route("/mayor")
 def mayor():
-    return render_template("mayor.html")
+    return render_template("mayor.html") 
 
 @app.route("/SanMiguel")
 def SanMiguel():
@@ -17,10 +17,5 @@ def SanMiguel():
 def enlaces():
     return render_template("enlaces.html")
 
-#def comparar():
-#    if num1>num2:
-#        return num1
-#    else:
-#        return num2
 
 app.run(debug=True)
