@@ -17,6 +17,10 @@ def SanMiguel():
 def enlaces():
     return render_template("enlaces.html")
 
-
+#def comparar():
+#    if num1>num2:
+#        return num1
+#    else:
+#        return num2
 
 app.run(debug=True)
