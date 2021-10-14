@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class="field">
+  <label class="label">Primer número</label>
+  <div class="control">
+    <input class="input" type="number" placeholder="Text input",value="Ingrese un número">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Segundo número</label>
+  <div class="control">
+    <input class="input" type="number" placeholder="Text input",value="Ingrese un número">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Seleccione</label>
+  <div class="control">
+    <div class="select">
+      <select>
+        <option>Comparar</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Resultado</label>
+  <div class="control">
+    <textarea class="textarea is-small" placeholder="Textarea"></textarea>
+  </div>
+</div>
+
+</div>
+
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link" onclic="calcular()">Enviar</button>
+  </div>
+  <div class="control">
+    <button class="button is-link is-light">Cancelar</button>
+  </div>
+</div>
+
+{% endblock %}
