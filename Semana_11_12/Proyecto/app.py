@@ -22,7 +22,6 @@ def enlaces():
 def resultado():
     respuesta=""
     if request.method =="POST" and "num1" in request.form and "num2" in request.form:
-#    if request.method =="POST":
         num1=request.form.get("num1")
         num2=request.form.get("num2")
         respuesta = num1
