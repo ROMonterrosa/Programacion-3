@@ -1,17 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
 
+<form action ="{{ url_for('resultado') }}" method="POST">
 <div class="field">
   <label class="label">Primer número</label>
   <div class="control">
-  <input name "num1" class="input" type="number" placeholder="Text input",value="Ingrese un número"> 
+  <input name "num1" class="input" type="number" placeholder="Ingrese un número"> 
   </div>
 </div>
 
 <div class="field">
   <label class="label">Segundo número</label>
   <div class="control">
-  <input name "num2" class="input" type="number" placeholder="Text input",value="Ingrese un número"> 
+  <input name "num2" class="input" type="number" placeholder="Ingrese un número"> 
   </div>
 </div>
 
@@ -28,20 +29,32 @@
 
 <div class="field">
   <label class="label">Resultado</label>
+    
+{% if respuesta %}
+<P> El numero {{respuesta}} es mayoor</p>
+{% else %}
+<P> El numero {{respuesta}} es mayor</p>
+{%endif%}
+hola{{respuesta}}
+hola{{num1}}
+hola{{num2}}
+
   <div class="control">
-    <textarea class="textarea is-small" placeholder="Textarea"></textarea>
+  <!--    <textarea class="textarea is-small" placeholder="Textarea"></textarea> -->
   </div>
 </div>
-
 </div>
 
 <div class="field is-grouped">
   <div class="control">
-    <button class="button is-link">Enviar</button>
+    <button type="submit" value="submit" class="button is-link">Enviar</button>
   </div>
+
   <div class="control">
-    <button class="button is-link is-light">Cancelar</button>
+    <button type = "reset" class="button is-link is-light">Cancelar</button>
   </div>
 </div>
+
+</form>
 
 {% endblock %}
